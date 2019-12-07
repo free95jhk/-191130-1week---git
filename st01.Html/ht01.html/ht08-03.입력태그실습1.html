@@ -13,9 +13,25 @@
 </head>
 
 <body>
-    <!-- fieldset & legend -->
-    <!-- form 태그 필수 속성 추가. -->
-    <form>
+
+    <form action="" method="get">
+        <fieldset>
+            <!-- 전체적인 박스툴 -->
+            <legend>입력양식</legend>
+
+            <div>
+                <label for="id">아이디:</label>
+                <input type="text" name="" id="id">
+                <!-- label 의 for과 input의 id를 동일하게 한다. ex> "id" -->
+            </div>
+
+            <div>
+                <label for="id2">비밀번호:</label>
+                <input type="password" name="" id="id2">
+            </div>
+            <input type="submit" value="로그인">
+
+        </fieldset>
     </form>
 
 </body>
